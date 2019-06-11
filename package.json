@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "now dev",
+    "now": "export $(cat .env) && now -e AUTH_USERS"
+  },
+  "dependencies": {
+    "static-auth": "^1.0.0"
+  },
+  "devDependencies": {
+    "now": "^15.4.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "node-static-auth",
+  "public": true,
+  "env": {
+    "AUTH_USERS":"@auth_users"
+  },
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    { "src": "/.*", "dest": "index.js" }
+  ]
+}
