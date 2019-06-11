@@ -6,5 +6,6 @@ To set env var `AUTH_USERS`, you can either:
 2. export env var from .env file when deploying: `export $(cat .env) && now -e AUTH_USERS`
 
 Live demo: https://node-static-auth.wzulfikar.now.sh
-user: `user1`
+
+user: `user1`  \
 pass: `user1`
